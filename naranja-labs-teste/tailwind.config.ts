@@ -16,6 +16,12 @@ const config: Config = {
       fontFamily: {
         merriweather: ['Merriweather', 'serif'],
         poppins: ['Poppins', 'sans-serif'],
+      },
+      fontSize: {
+        'normal-title': ['80px', '100px'],
+        'normal-paragraph': ['24px', '40px'],
+        'small-paragraph': ['18px', '27px'],
+        'logo-size': ['36px', '45px'],
       }
     },
   },
