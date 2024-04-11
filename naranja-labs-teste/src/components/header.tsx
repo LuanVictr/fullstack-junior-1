@@ -7,14 +7,14 @@ function Header() {
   return (
     <div className="flex flex-row justify-around items-center mb-14 py-10">
       <h1 className="font-merriweather text-3xl font-bold">
-        <span className="font-bold text-3x1 text-primary-color">Gath</span>
-        <span className="font-bold text-3x1 text-white">Session</span>
-        <span className="font-bold text-3x1 text-primary-color">.</span>
+        <span className="font-bold text-logo-size text-primary-color">Gath</span>
+        <span className="font-bold text-logo-size text-white">Session</span>
+        <span className="font-bold text-logo-size text-primary-color">.</span>
       </h1>
       <div className="flex flex-row space-x-16">
         <nav className="space-x-12">
           <button
-            className={`pb-2 font-poppins relative ${
+            className={`pb-2 font-poppins relative text-small-paragraph ${
               selectedLink === "Home"
                 ? "border-b-2 border-primary-color text-white"
                 : "text-gray-not-selected"
@@ -24,7 +24,7 @@ function Header() {
             Home
           </button>
           <button
-            className={` pb-2 font-poppins relative ${
+            className={` pb-2 font-poppins relative text-small-paragraph ${
               selectedLink === "Features"
                 ? "border-b-2 border-primary-color text-white"
                 : "text-gray-not-selected"
@@ -34,7 +34,7 @@ function Header() {
             Features
           </button>
           <button
-            className={` pb-2 font-poppins relative ${
+            className={` pb-2 font-poppins relative text-small-paragraph ${
               selectedLink === "Blog"
                 ? "border-b-2 border-primary-color text-white"
                 : "text-gray-not-selected"
@@ -44,7 +44,7 @@ function Header() {
             Blog
           </button>
           <button
-            className={` pb-2 font-poppins relative ${
+            className={` pb-2 font-poppins relative text-small-paragraph ${
               selectedLink === "Contact"
                 ? "border-b-2 border-primary-color text-white"
                 : "text-gray-not-selected"
@@ -54,7 +54,7 @@ function Header() {
             Contact
           </button>
           <button
-            className={` pb-2 font-poppins relative ${
+            className={` pb-2 font-poppins relative text-small-paragraph ${
               selectedLink === "About Us"
                 ? "border-b-2 border-primary-color text-white"
                 : "text-gray-not-selected"
