@@ -5,7 +5,7 @@ function Header() {
   const [selectedLink, setSelectedLink] = useState("Home");
 
   return (
-    <div className="flex flex-row justify-around items-center mb-14 py-10">
+    <div className="flex flex-row justify-between items-center mx-28 mb-14 py-10">
       <h1 className="font-merriweather text-3xl font-bold">
         <span className="font-bold text-logo-size text-primary-color">Gath</span>
         <span className="font-bold text-logo-size text-white">Session</span>
