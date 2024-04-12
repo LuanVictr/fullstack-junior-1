@@ -22,7 +22,16 @@ const config: Config = {
         'normal-paragraph': ['24px', '40px'],
         'small-paragraph': ['18px', '27px'],
         'logo-size': ['36px', '45px'],
-      }
+      },
+      height: {
+        'button-heigth': '60px',
+      },
+      width: {
+        '22': '86px'
+      },
+      spacing: {
+        'spacing-5': '5px',
+      },
     },
   },
   plugins: [],
